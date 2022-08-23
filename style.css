@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    min-height: 100vh;
+}
+
+
+
+.m-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.Header-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header{
+    display: flex;
+}
+
+.header-links ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
