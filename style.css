@@ -4,7 +4,11 @@
 }
 
 body{
+    /* MIN HEIGHT set to 100vh required and display flex needed to make entire
+       page flex correctly*/
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -12,11 +16,11 @@ body{
 .m-container{
     display: flex;
     flex-direction: column;
-}
+ }
 
 .Header-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .header{
@@ -27,6 +31,16 @@ body{
     display: flex;
     justify-content: space-around;
     gap: 50px;
+}
+
+
+.showcase-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* CSS for container holding content between header and footer */
+    flex: 2;
 }
 
 
